@@ -21,16 +21,16 @@ void TitleBar::initControl(){
     delete_btn=new QPushButton(this);
     close_btn=new QPushButton(this);
 
-    new_btn->setStyleSheet("QPushButton{background: transparent;"
+    new_btn->setStyleSheet("QPushButton{border-style:none;"
                            "width:24px;height:24px;image:url(:/Icons/new.png)}"
                            "QPushButton:hover:pressed:{none}");
-    setting_btn->setStyleSheet("QPushButton{background: transparent;"
+    setting_btn->setStyleSheet("QPushButton{border-style:none;"
                                "width:24px;height:24px;image:url(:/Icons/style.png)}"
                                "QPushButton:hover:pressed:{none}");
-    delete_btn->setStyleSheet("QPushButton{background: transparent;"
+    delete_btn->setStyleSheet("QPushButton{border-style:none;"
                               "width:24px;height:24px;image:url(:/Icons/delete.png)}"
                               "QPushButton:hover:pressed:{none}");
-    close_btn->setStyleSheet("QPushButton{background: transparent;"
+    close_btn->setStyleSheet("QPushButton{border-style:none;"
                              "width:24px;height:24px;image:url(:/Icons/close.png)}"
                              "QPushButton:hover:pressed:{none}");
 
